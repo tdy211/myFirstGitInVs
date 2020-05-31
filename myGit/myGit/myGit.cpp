@@ -7,4 +7,7 @@ int main()
 {
     std::cout << "Hello World!\n";
 	std::cout << "hello,china" << std::endl;
+	int a;
+	std::cin >> a;
+
 }
