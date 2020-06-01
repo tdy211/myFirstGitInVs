@@ -1,13 +1,25 @@
-﻿// myGit.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿#include <iostream>
+#include<vector>
+#include <algorithm>   
+using namespace std;
+typedef struct Point
+{
+	float x;
+	float y;
+}myPoint;
+void test01()
+{
+	int a= max({ 1,2,3 });
+	int arr[] = { 1,2,3,4,5,6 };
+	int c = *max_element(arr, arr + 6);
 
-#include <iostream>
+	std::cout << a << std::endl << c << std::endl;;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
-	std::cout << "hello,china" << std::endl;
-	int a;
-	std::cin >> a;
+	test01();
+	int abc;
+	cin >> abc;
 
 }
